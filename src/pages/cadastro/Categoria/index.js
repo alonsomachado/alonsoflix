@@ -41,7 +41,7 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    const URL_TOP = `${config.URL_BACKEND_TOP}`;
+    const URL_TOP = `${config.URL_BACKEND_TOP}/categorias`;
 
     fetch(URL_TOP)
       .then(async (respostaDoServidor) => {
