@@ -23,7 +23,9 @@ export default function Pagina404(){
         title="Flappy Bird Game"
         src="https://mariosouto.com/flappy-bird-devsoutinho/"
         width="340"
-        height="600" />
+        height="500"
+        scrolling="no" 
+        frameborder="0" />
     </div>
        </PageDefault>
     );
